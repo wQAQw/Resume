@@ -1,0 +1,50 @@
+* {
+  font-family: sans-serif;
+}
+body{
+  margin:0;
+  width: 9999px;
+}
+h1{
+  background-color: grey;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin:0;
+  padding:20px;
+}
+h2{
+  background-color: lightgrey;
+  padding: 40px 20px;
+  margin:0;
+  float: left;
+  overflow: hidden;
+}
+div {
+  float: left;
+}
+h1+div{
+  overflow: hidden；
+}
+.item {
+  padding: 0px 0.5rem;
+  font-weight: bold;
+  display: inline-block;
+}
+.item:nth-child(1){
+    padding: 0.5rem 0.5rem 0px 0.5rem;
+}
+.content {
+  font-weight: 500;
+  margin-right: 2.0rem;
+  line-height: 1.5;
+}
+br{
+  width: 0%;
+  line-height: 1px;
+}
+hr{
+  clear: both;
+  margin:0;
+  size:0;
+}
