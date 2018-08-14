@@ -1,0 +1,48 @@
+* {
+  font-family: sans-serif;
+}
+body{
+  margin: 0%;
+  width: 9999px;
+}
+h1{
+  text-align: center;
+  color: white;
+  padding: 65px 0;
+  float: left;
+  margin:0px auto;
+  width: 20%;
+  max-width: 150px;
+  background-color: #87CEFA;
+  height: 680px;
+}
+h1 + div{
+  float: left;
+  margin: 10px 0 0 20px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.item {
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+.content {
+  font-weight: 500;
+  padding-left: 0;
+  margin-right: 2.0rem;
+  line-height: 1.5;
+}
+hr{
+  border:0;
+}
+.sp>span:nth-child(1)::after,
+.sp>span:nth-child(2)::after,
+.sp>span:nth-child(4)::after {
+  content: "";
+  display: block;
+  width: 0;
+  line-height: 0;
+}
+.sp>.item{
+  margin-right: 0rem;
+}
