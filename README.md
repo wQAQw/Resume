@@ -1,5 +1,4 @@
 # Resume
-three styles
 <!DOCTYPE html>
 <html>
   <head>
