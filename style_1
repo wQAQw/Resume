@@ -1,0 +1,26 @@
+* {
+  font-family: sans-serif;
+}
+.item{
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+.content{
+  font-weight: 500;
+  margin-right: 2.0rem;
+  line-height: 1.5;
+}
+hr{
+  border: 0;
+}
+.sp>span:nth-child(1)::after,
+.sp>span:nth-child(2)::after,
+.sp>span:nth-child(4)::after {
+  content: "";
+  display: block;
+  width: 0;
+}
+
+.sp>.item {
+  margin-right: 0rem;
+}
